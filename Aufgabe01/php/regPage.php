@@ -141,7 +141,7 @@ if (isset($_POST['regButton']))
             </form>
          </div>
       </main>
-      <script src="regScript.js"></script>
+      <script src="../javascript/regScript.js" defer></script>
    </body>
 </html>
 <!--he double arrow operator, =>, is used as an access mechanism for arrays. This means that what is on the left side of it will have a corresponding value of what is on the right side of it in array context. This can be used to set values of any acceptable type into a corresponding index of an array. The index can be associative (string based) or numeric.

@@ -4,12 +4,12 @@
 
 const updateDataAdmin = document.getElementById('dataUpdate');
 const myEmailUpdade = document.getElementById('email');
-const nameUpdateAdmin = document.getElementById('adminNameUpdate');
+const nameUpdateAdmin = document.getElementById('name');
 const plzUpdateAdmin = document.getElementById('plz');
 const ortUpdateAdmin = document.getElementById('ort');
 const telephonUpdateAdmin = document.getElementById('telephon');
-const passUpdateAdmin = document.getElementById('passwort');
-const passWiederUpdateAmdin = document.getElementById('wiederholung');
+const passUpdateAdmin = document.getElementById('passwrot');
+const passWiederUpdateAmdin = document.getElementById('wiederPass');
 
 updateDataAdmin.addEventListener('submit', (e) => {
 

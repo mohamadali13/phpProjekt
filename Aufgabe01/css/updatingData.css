@@ -1,0 +1,22 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 80%;
+    border: 1px gray solid;
+    padding: 9rem;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem auto;
+}

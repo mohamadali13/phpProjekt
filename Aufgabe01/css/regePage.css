@@ -1,0 +1,81 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 90%;
+    border: 1px solid gray;
+    margin: 7% auto;
+    height: auto;
+    display: flex;
+    border-radius: 5px;
+    flex-flow: column wrap;
+    flex-direction: row;
+}
+
+#registierungsDiv {
+    flex: 1;
+    text-align: center;
+    padding: 3rem;
+}
+
+#regDiv {
+    flex: 2;
+    padding: 2rem;
+}
+
+.inputFelder {
+    margin-top: 1rem;
+}
+
+input {
+    width: 65%;
+    height: 1.8rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+span {
+    color: red;
+}
+
+#checkbox {
+    width: 60%;
+}
+
+#checkboxDiv {
+    margin-bottom: 1rem;
+}
+
+#fehelMeldung {
+    border: 2px solid red;
+    display: none;
+    padding: 0.4rem;
+}
+
+#regButton {
+    cursor: pointer;
+}
+
+#loginDiv {
+    text-align: center;
+    width: 60%;
+    margin-top: 2rem;
+}
+
+#loginDiv a {
+    text-decoration: none;
+}

@@ -1,0 +1,60 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    width: 80%;
+    padding: 4rem;
+    border: 1px gray solid;
+    margin: 2rem auto;
+}
+
+.divsClass {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2rem auto;
+}
+
+.labelsClass {
+    width: 18rem;
+    margin-left: 8rem;
+}
+
+.DataInputFelder {
+    width: 60%;
+    height: 4rem;
+    border-radius: 5px;
+}
+
+#backButton {
+    padding: 1rem;
+    background-color: rgb(53, 114, 226);
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    width: 6rem;
+    cursor: pointer;
+}
+
+.inputFieldAdminUpdate {
+    width: 70%;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.updateInputeError {
+    color: red;
+    font-size: bold;
+    display: block;
+}

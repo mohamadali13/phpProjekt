@@ -1,0 +1,95 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 90%;
+    border: 1px solid gray;
+    margin: 10% auto;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: row;
+}
+
+#loginDiv {
+    flex: 1;
+    text-align: center;
+    padding: 3rem;
+}
+
+#emailDiv {
+    margin: 1rem auto;
+    text-align: left;
+}
+
+#emailLabel {
+    margin-left: 2%;
+}
+
+#email {
+    width: 60%;
+    height: 2rem;
+}
+
+#passDiv {
+    margin: 1rem auto;
+    text-align: left;
+}
+
+#password {
+    width: 60%;
+    height: 2rem;
+}
+
+#loginButton {
+    width: 40%;
+    padding: 0.2rem;
+    cursor: pointer;
+}
+
+#regLink {
+    margin-top: 2rem;
+    text-align: left;
+}
+
+input {
+    border: 1px gray solid;
+    border-radius: 5px;
+}
+
+#loginRightDiv {
+    flex: 2;
+    padding: 2rem;
+}
+
+#loginFehlerDiv {
+    border: 2px solid red;
+    display: none;
+    padding: 0.3rem;
+}
+
+.inputFehlerMedlung {
+    color: red;
+}
+
+#emailFehlerSpan {
+    display: none;
+}
+
+#emailFelhersopan2 {
+    display: none;
+}
+
+#passwordFehlerSpan {
+    display: none;
+}

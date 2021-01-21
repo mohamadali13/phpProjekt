@@ -111,7 +111,7 @@ include '../hidden/connection.php';?>
         </div>
         
     </main>
-    <script src="loginPage.js"></script>
+    <script src="../javascript/loginPage.js"></script>
 </body>
 
 </html>
